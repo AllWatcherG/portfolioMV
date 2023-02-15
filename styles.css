@@ -33,6 +33,12 @@ nav{
     width: 100%;
     border: .1rem solid blue;
 }
+article{
+    margin-top: 3%;
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+}
 #james{
    width: 35%;
 }
