@@ -3,7 +3,7 @@
 }
 body{
     /* justify-content: center; */
-    background-color: aqua;
+    background-color: rgb(97, 97, 97);
 }
 header{
     margin-top: 0px;
@@ -13,7 +13,7 @@ header{
     flex-direction: column;
     border: .1rem solid purple;
     padding-bottom: 10px;
-    background-image: url(nycLandscape.jpg);
+    background-color: rgb(143, 143, 143);
     background-size: cover;
     background-position-y: center;
 
@@ -23,6 +23,41 @@ nav{
     display: flex;
     width: 50%;
     justify-content: space-between;
-    border: .1rem solid blue;
     
+    
+}
+#homeQuote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    width: 100%;
+    border: .1rem solid blue;
+}
+#james{
+   width: 35%;
+}
+#linkedInA{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: .1rem solid rgb(255, 0, 149);
+    text-align: center;
+    
+}
+#linkedInImg{
+    display: flex;
+    width: 5%;
+    align-items: center;
+    padding-left: 50%;
+}
+footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: .1rem solid blue;
+    position: absolute;
+    bottom: 0;
+
 }
