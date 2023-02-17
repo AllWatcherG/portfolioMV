@@ -23,7 +23,7 @@ header{
     font-size:29px;
     text-align: center;
 }
-div{
+div:not([class]):not([id]){
     display:flex;
     justify-content: center;
     width: 80%;
@@ -159,5 +159,32 @@ nav{
     
 }
 li{
-    font-size: 20pt;
+    font-size: 20pt;;
 }
+
+#footer .linkedin {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -78px 0;
+  }
+  #footer a {
+    height: 56px;
+    width: 56px;
+    display: inline-block;
+    margin: 10px;
+  }
+  #footer a:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+  }
+  
+  #footer .linkedin:hover {
+    background-position: -78px -56px;
+  }
+  .bg-dark-1{
+      
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      width:100%;
+  }
