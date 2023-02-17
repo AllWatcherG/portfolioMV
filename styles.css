@@ -88,7 +88,7 @@ footer{
 #footer .linkedin:hover {
   background-position: -78px -56px;
 }
-.bg-dark-1{
+/* .bg-dark-1{
     
     display: flex;
     justify-content: center;
@@ -97,8 +97,14 @@ footer{
     left:0px;
     bottom:0px;
     width:100%;
+} */
+.bg-dark-1{
+      
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width:100%;
 }
-
 a{
     text-decoration: none;
 }
