@@ -69,6 +69,10 @@ p{
   a{
     text-decoration: none;
 }
+a:visited { 
+    text-decoration: none; 
+    color: black; 
+   }
 
 @media (max-width: 480px) {
     /* … */
